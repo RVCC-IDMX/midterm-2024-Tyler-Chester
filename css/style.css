@@ -33,7 +33,7 @@ h2{
     font-size: 50pt;
     text-align: center;
 }
-h2, h3, h4, h5, p{
+h2, h3, h4, h5, h6, p{
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -45,6 +45,18 @@ h2, h3, h4, h5, p{
 #reviews figure{
     border: 3px solid #406B3D;
 }
+h4, h5, h6{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h5{
+    font-size:12pt;
+    color:silver;
+}
+h6{
+    color: gold;
+    font-size: 20pt;
+ }
 /* Footer */
 footer{
     font-size: 12pt;
