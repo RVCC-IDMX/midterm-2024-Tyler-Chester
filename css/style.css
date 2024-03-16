@@ -1,13 +1,55 @@
 /* Styles for Mobile Site */
-
+body {
+    font-family: Judson;
+    background-color: #284226;
+    color: white;
+    font-size: 20pt;
+}
+h1{
+    font-size: 50pt;
+    text-align: center;
+}
 /* Header & Hero */
-
+header{
+    text-align: center;
+}
+#hero img{
+    width:350px;
+}
 /* Projects */
-
+#projects{
+    max-width: 100%;
+    border: 10px solid #406B3D;
+    text-align: center;
+}
+#projects img{
+    max-width: 100%;
+}
+#projects figure{
+    border: 3px solid #406B3D;
+    padding-top: 1em;
+}
+h2{
+    font-size: 50pt;
+    text-align: center;
+}
+h2, h3, h4, h5, p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 /* Reviews */
-
+#reviews{
+    border: 10px solid #406B3D;
+  
+}
+#reviews figure{
+    border: 3px solid #406B3D;
+}
 /* Footer */
-
+footer{
+    font-size: 12pt;
+    background-color: #406B3D;
+}
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
